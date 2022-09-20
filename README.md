@@ -49,3 +49,22 @@ int main()
 }
 OUTPUT:
 ![2022-09-20](https://user-images.githubusercontent.com/113410100/191207230-e63ff6b6-90ff-4475-8925-14c3c3ffef4b.png)
+
+
+2.PROGRAM FOR ODD OR EVEN:
+#include <stdio.h>
+int main()
+{
+    int num1, rem1;
+ 
+    printf("Input an integer : ");
+    scanf("%d", &num1);
+    rem1 = num1 % 2;
+    if (rem1 == 0)
+        printf("%d is an even integer\n", num1);
+    else
+        printf("%d is an odd integer\n", num1);
+}
+OUTPUT:
+![image](https://user-images.githubusercontent.com/113410100/191208251-3922f8d9-54d9-4bc0-bb78-97ce624dfbd2.png)
+
